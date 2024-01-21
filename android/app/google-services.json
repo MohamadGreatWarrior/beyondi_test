@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208321988215",
+    "project_id": "p2p-renting-car",
+    "storage_bucket": "p2p-renting-car.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208321988215:android:b5a280bbb073354abd6872",
+        "android_client_info": {
+          "package_name": "com.example.p2p_car_renting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJ1g9U5Zl_6OklKBtt4veOSlXxi51uXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
