@@ -47,6 +47,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
             return [
               if (state is BiometricsState) const BiometricsRoute(),
               if (state is AuthenticatedState) const MainNavigationRoute(),
+              if (state is GuestState) const MainNavigationRoute(),
               if (state is UnauthenticatedState)
                 SignInRoute(
                   showBackButton: state.showSignInBackButton,
