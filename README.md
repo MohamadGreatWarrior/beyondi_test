@@ -6,7 +6,7 @@
 * Using [json_serializble](https://pub.dev/packages/json_serializable)
 * Authentication.
   
-#### :atom::atom: Let me tell you where the real catch in the project :atom::atom: ####
+#### :atom::atom: Let me tell you where the real catch in the project ####
 
 They told me to request data from Firestore using Dio with raw urls not using Firestore client package like [this](https://pub.dev/packages/cloud_firestore).
  
