@@ -1,16 +1,11 @@
 # p2p_car_renting
 
-A new Flutter project.
+* Using Bloc.
+* CRUDs for Firebase Firestore. Adding car offer, edit, delete...etc.
+* Using Dio.
+* Using [json_serializble](https://pub.dev/packages/json_serializable)
+  
+### Let me tell you where the real catch in the project ###
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+They told me to request data from Firestore using Dio with raw urls not using Firestore client package like [this](https://pub.dev/packages/cloud_firestore).
+ 
